@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+p,h3 {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+h1{
+    color: black;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+body main {
+    width: 600px;
+    margin: 100px auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 20px;
+}
+body main .intro img{
+    width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+body main .intro h1{
+    margin-bottom: 20px;
+}
+body main .intro .prep_time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+body main .intro .prep_time ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+body main .intro .prep_time ul li {
+    padding: 5px;
+    padding-left: 15px;
+    color: hsl(30, 10%, 34%);
+}
+
+/* Ingredients Start */
+
+body main .ingredients {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+body main .ingredients ul {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+body main .ingredients ul li {
+    padding: 5px;
+    padding-left: 15px;
+    color: hsl(30, 10%, 34%);
+}
+
+/* Instructions start */
+
+body main .instructions {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+body main .instructions ol{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+body main .instructions ol li {
+    padding: 5px;
+    padding-left: 15px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+/* Nutritions Start */
+
+body main .nutritions {
+    margin-top: 20px;
+}
+body main .nutritions h2{
+    margin-bottom: 20px;
+}
+body main .nutritions table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 20px 0px 10px 30px;
+}
+tr:last-child td {
+    border-bottom: none;
+}
+body main .nutritions table tr td .stats {
+    font-weight: 700;
+}
+
+/* Mobile Responsive */
+
+@media only screen and (max-width: 650px) {
+    body {
+      background-color: white;
+    }
+    body main {
+        width: 80%;
+        margin-top: -30px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 0;
+    }
+    body main .intro img{
+        width: 140%;
+        position: relative;
+        margin-left: -80px;
+        border-radius: 0;
+        margin-bottom: 20px;
+    }
+    body main .intro h1{
+        margin-bottom: 20px;
+    }
+    body main .intro .prep_time {
+        background-color: hsl(330, 100%, 98%);
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    body main .intro .prep_time ul {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    body main .intro .prep_time ul li {
+        padding: 5px;
+        padding-left: 15px;
+        color: hsl(30, 10%, 34%);
+    }
+    
+  }
